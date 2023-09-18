@@ -23,7 +23,7 @@ CANADA_GST_RATE = 0.05
 MANITOBA_PST_RATE = 0.07
 vehicle_price = 22503.03
 price_inclue_tax = vehicle_price + vehicle_price *(CANADA_GST_RATE + MANITOBA_PST_RATE)
-print(f"pre-tax value: {vehicle_price} PST: {vehicle_price*MANITOBA_PST_RATE} GST: {vehicle_price*CANADA_GST_RATE} total: {price_inclue_tax}")
+print(f"pre-tax value: ${vehicle_price:.2f} PST: {vehicle_price*MANITOBA_PST_RATE:.2f} GST: {vehicle_price*CANADA_GST_RATE:.2f} total: ${price_inclue_tax:.2f}")
 
 #LISTS
 
