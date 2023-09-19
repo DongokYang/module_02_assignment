@@ -1,5 +1,5 @@
 """
-Description:
+Description: this file is created to practice basic python grammars and PEP8 standards
 Author: Dongok Yang
 Date: 2023.09.18
 Usage:
