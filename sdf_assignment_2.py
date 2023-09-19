@@ -26,10 +26,18 @@ price_inclue_tax = vehicle_price + vehicle_price *(CANADA_GST_RATE + MANITOBA_PS
 print(f"pre-tax value: ${vehicle_price:.2f} PST: {vehicle_price*MANITOBA_PST_RATE:.2f} GST: {vehicle_price*CANADA_GST_RATE:.2f} total: ${price_inclue_tax:.2f}")
 
 #LISTS
+number_list = [1,2,3,4,5,6,7,8,9,10]
+print(type(number_list))
+print(number_list)
+number_list[5:5] = ["Dongok"]
+print(number_list)
+number_list.remove(9)
+print(number_list)
+second_list = ['A','B','C']
+third_list = number_list + second_list
+print(third_list)
 
 #TUPLES
-
-#DICTIONARIES
-
-#SETS
-
+provinces = ('Manitoba','Ontario','Quebec','Alberta')
+print(provinces)
+print(type(provinces))
