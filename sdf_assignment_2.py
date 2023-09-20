@@ -6,6 +6,7 @@ Usage:
 """
 
 #SIMPLE DATA TYPES
+# the codes below shows what types of data types exists and how to use it
 name = "Dongok"
 print(f"value:{name} type: {type(name)}")
 
@@ -19,6 +20,7 @@ this_year +=1
 print(f"next year:{this_year} type: {type(this_year)}")
 
 #CALCULATIONS
+# the codes below shows how to use calculation with python
 CANADA_GST_RATE = 0.05
 MANITOBA_PST_RATE = 0.07
 vehicle_price = 22503.03
@@ -26,6 +28,7 @@ price_inclue_tax = vehicle_price + vehicle_price *(CANADA_GST_RATE + MANITOBA_PS
 print(f"pre-tax value: ${vehicle_price:.2f} PST: {vehicle_price*MANITOBA_PST_RATE:.2f} GST: {vehicle_price*CANADA_GST_RATE:.2f} total: ${price_inclue_tax:.2f}")
 
 #LISTS
+# the codes below shows how to use LIst with python
 number_list = [1,2,3,4,5,6,7,8,9,10]
 print(type(number_list))
 print(number_list)
@@ -38,11 +41,13 @@ third_list = number_list + second_list
 print(third_list)
 
 #TUPLES
+# the codes below shows how to use tuples with python
 provinces = ('Manitoba','Ontario','Quebec','Alberta')
 print(provinces)
 print(type(provinces))
 
 #DICTIONARIES
+# the codes below shows how to use dictionaries with python
 canada_currency = {'nickel': 0.05, 'dime': 0.10, 'quarter': 0.25}
 print(canada_currency)
 print(type(canada_currency))
@@ -55,6 +60,7 @@ canada_currency['toonie'] = 200
 print(canada_currency)
 
 #SETS
+# the codes below shows how to use sets with python
 even_numbers = set(range(2,21,2))
 print(even_numbers)
 print(type(even_numbers))
